@@ -1,7 +1,7 @@
 {
   "name": "@jsalazarv/vue-avatar",
   "version": "1.0.0",
-  "description": "",
+  "description": "The avatar component allows you to display circular or square user profile images.",
   "main": "dist/v-avatar.ssr.js",
   "browser": "dist/v-avatar.esm.js",
   "module": "dist/v-avatar.esm.js",
@@ -21,6 +21,27 @@
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife",
     "postbuild": "rimraf ./dist/types/dev ./dist/types/src/entry.d.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsalazarv/jsalazarv-vue-avatar/tree/dev"
+  },
+  "homepage": "https://github.com/jsalazarv/jsalazarv-vue-avatar/tree/dev",
+  "license": "MIT",
+  "author": "Juan Salazar <jsalazarv8@gmail.com>",
+  "keywords": [
+    "avatar",
+    "avatar-component",
+    "avatar component",
+    "vue-avatar-component",
+    "vue avatar component",
+    "vue-avatar",
+    "vue avatar",
+    "vue-component",
+    "vue component",
+    "v-avatar",
+    "vue",
+    "jsalazarv"
+  ],
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.14.6",
