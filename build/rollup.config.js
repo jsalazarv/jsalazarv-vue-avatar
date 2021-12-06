@@ -1,6 +1,6 @@
-// rollup.config.js
 import fs from 'fs';
 import path from 'path';
+import scss from 'rollup-plugin-scss';
 import vue from 'rollup-plugin-vue';
 import alias from '@rollup/plugin-alias';
 import commonjs from '@rollup/plugin-commonjs';
@@ -38,9 +38,11 @@ const baseConfig = {
           },
         ],
       }),
+      scss(),
     ],
     replace: {
       'process.env.NODE_ENV': JSON.stringify('production'),
+      preventAssignment: true,
     },
     vue: {
       css: true,
@@ -68,6 +70,8 @@ const external = [
   // list external dependencies, exactly the way it is written in the import statement.
   // eg. 'jquery'
   'vue',
+  'vue-class-component',
+  'vue-property-decorator',
 ];
 
 // UMD/IIFE shared settings: output.globals
