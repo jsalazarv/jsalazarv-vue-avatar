@@ -27,9 +27,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsalazarv/jsalazarv-vue-avatar/tree/dev"
+    "url": "https://github.com/jsalazarv/jsalazarv-vue-avatar"
   },
-  "homepage": "https://github.com/jsalazarv/jsalazarv-vue-avatar/tree/dev",
+  "homepage": "https://github.com/jsalazarv/jsalazarv-vue-avatar",
   "license": "MIT",
   "author": "Juan Salazar <jsalazarv8@gmail.com>",
   "keywords": [
